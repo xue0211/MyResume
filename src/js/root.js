@@ -5,51 +5,79 @@ const app = new Vue({
             info: {
                 name: '余韵之',
                 job: '前端工程师',
-                live: '上海嘉定',
+                live: '南京工业大学',
                 telephone: '18964022629',
-                email: 'lambert1129@foxmail.com',
+                email: 'zx2723708118@163.com',
                 wechat: 'lambert1129',
                 age: '25',
             },
             statement: {
-                content: '我是来自山东的张三，大家所看到的我的内在就像我的外表一样，敦厚和实在是我对自己最好的概括。专业扎实，看书是我最大的享受，钻研电脑让我感觉其乐无穷。给我一个机会，我会给您一个惊喜。'
+                content: ''
             },
             projects: [
                 {
-                    name: '无缝轮播',
-                    useSkill: 'JavaScript、jQuery、响应式布局 、MVC、eventHub（发布/订阅模式）、七牛&LeanCloud数据库、Swiper、移动端',
-                    imgLink: '',
-                    sourceLink: 'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/music-2018-06',
-                    previewLink: 'https://yuyunzhi.github.io/music-2018-06/src/index.html',
-                    blogLink: 'https://zhuanlan.zhihu.com/p/38099257',
-                    describe: '移动端播放歌曲、切换、暂停、搜索等功能，PC 端歌曲上传、删除、修改等功能。使用 jQuery、MVC，以及 LeanCloud、七牛等作为数据库实现。使用vConsole进行调试'
+                    name: 'flurryUI(基于Vue3)',
+                    useSkill: 'Vue3.js、Vue Router、Vue CLI、Vite、TypeScript、SASS、MVVM、Prism.js、响应式布局 、Git管理',
+                    imgLink: '../img/flurry.jpg',
+                    sourceLink: 'https://github.com/xue0211/flurryUI',
+                    previewLink: 'https://xue0211.github.io/flurry-ui/',
+                    describe: '本项目使用Vite搭建官网，通过Vue3、Vue Router、TypeScript等技术栈完成了Switch、Button、Dialog、Tabs组件的设计与实现，并在官网中撰写了文档。'
                 },
+                {
+                    name:'sleetUI(基于Vue2)',
+                    useSkill:'Vue2.js、Vue Router、JavaScript、SCSS、Event Bus、MVVM、响应式布局、Parcel、Chai、VuePress',
+                    imgLink:'../img/sleet.jpg',
+                    sourceLink:'https://github.com/xue0211/gulu-demo',
+                    previewLink:'',
+                    describe:'本项目使用VuePress搭建官网，通过Vue2、Vue Router、JavaScript等技术栈完成了Button、Collapse、Grid、Input、Layout、Popover、Tabs、Toast组件的设计与实现，借助Event Bus进行组件通信，通过Chai进行断言测试。'
+                },
+                {
+                    name:'CNode社区(基于Vue2)',
+                    useSkill:'Vue2.js、Vue Router、Vue CLI、Axios、jQuery、localStorage、filter、JavaScript、CSS、MVVM、响应式布局、Parcel',
+                    imgLink:'../img/CNode.jpg',
+                    sourceLink:'https://github.com/xue0211/CNode',
+                    previewLink:'https://xue0211.github.io/CNode/cnode-project/dist/index.html#/',
+                    describe:'本项目使用Vue CLI搭建官网，v-bind 动态绑定样式，Vue Router进行前端路由的切换及传参。引入Axios获取数据，运用filter对数据实现过滤处理，computed属性完成数据筛选，localStorage 技术存储数据。使用jQuery实现Pagination组件功能， 。'
+                },
+                {
+                    name:'画一只皮卡丘',
+                    useSkill:'JavaScript、jQuery、Prism.js、Rem响应式页面 、CSS',
+                    imgLink:'../img/Pikachu.jpg',
+                    sourceLink:'https://github.com/xue0211/Pikachu-2.0',
+                    previewLink:'https://xue0211.github.io/Pikachu-2.0/index.html',
+                    describe:'动态向<style>标签和<pre>标签添加文本，绘制出皮卡丘的过程。用css3实现动画的效果，prism.js实现代码高亮的效果，rem实现响应式布局。'
+                },
+                {
+                    name:'Canvas画板',
+                    useSkill:'原生JavaScript、Canvas、移动端、SVG、特性检测',
+                    imgLink:'../img/Canvas.jpg',
+                    sourceLink:'https://github.com/xue0211/canvas',
+                    previewLink:'https://xue0211.github.io/canvas/index.html',
+                    describe:'本项目使用原生JS实现，主要调用 Canvas API，实现了线粗、调色、橡皮擦、一键删除、保存等功能。其中，context.clearRect()实现了橡皮檫和清屏的功能，className切换实现了笔的线粗、颜色切换的功能，用meta:vp、特性检测、ontouch事件实现了触屏设备与web端兼容。'
+                }, 
 
 
             ],
             skills: [
-                { name: 'Html、CSS、javascript', describe: '完美还原设计稿完美还原设计稿完美还原设计稿完美还计稿完美还原设计原设计设计稿完美还原设计稿完美。' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
-                { name: 'jQuery', describe: '完美还原设计稿' },
+                {
+                    name:'HTML 5',
+                    describe:'根据 HTML5 标准编写具有语义化的文档结构，包括 <nav>、<header>、<main>、<section>、<article>、<aside>、<footer> 等'
+                },          
             ],
+            statement:{
+                content:''
+            },
+            social:{
+                github:'',
+                zhihu:'',
+                wexin:'余韵之',
+            }
         },
         line: {
-            stateself: '自我介绍 / STATEMENT',
-            projects: '项目经历 / PROJECT EXPERIENCE',
-            skills: '技能 / SKILLS',
+            projects:'项目作品 / PROJECT EXPERIENCE',
+            skills:'技能 / SKILLS',
+            stateself:'个人经历 / MY EXPERIENCE',
+            social:'社交网站 / SOCIAL INTERNET'
         },
     },
 
