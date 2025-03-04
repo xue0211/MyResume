@@ -3,13 +3,13 @@ const app = new Vue({
     data: {
         displayresume: {
             info: {
-                name: '余韵之',
+                name: '钟雪',
                 job: '前端工程师',
-                school: '南京工业大学',
+                school: '南京工业大学 本科',
                 telephone: '18964022629',
                 email: 'zx2723708118@163.com',
-                wechat: 'lambert1129',
-                age: '25',
+                wechat: '17714428531',
+                age: '22',
             },
           
             projects: [
@@ -140,7 +140,7 @@ const app = new Vue({
             
             ],
             statement:{
-                content:''
+                content:'我是2025届本科应届毕业生。大一期间，因VBA课程对编程产生了浓厚兴趣。大二时，我开始修读计算机科学与技术专业的第二学历，并在课程中接触到了前端开发，从而对其产生了浓厚的兴趣。至今，我已经自学前端开发两年。我热爱写代码，享受通过代码组合创造出成果的过程，享受解决bug的成就感，也享受不断创造的乐趣。'
             },
             social:{
                 github:'',
