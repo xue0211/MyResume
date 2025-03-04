@@ -79,8 +79,8 @@ const app = new Vue({
                 },  
                 {
                     name:'jQuery',
-                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。'
-                },    
+                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。用jQuery做了轮播和2048游戏。'
+                },   
                 {
                     name:'Vue.js',
                     describe:'能够使用Vue.js完成需求，了解Vue.js的数据双向绑定、父子兄弟组件间的通信原理，能够使用Vue-Router制作前端路由，能够使用keep-alive进行缓存。'
@@ -111,7 +111,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'JSONP',
-                    describe:'了解JSONP的概念，并写了相应的博客。'
+                    describe:'了解JSONP的概念，知道它的使用逻辑。'
                 },    
                 {
                     name:'AJAX、Promise',
@@ -123,16 +123,17 @@ const app = new Vue({
                 },    
                 {
                     name:'LocalStorage、Cache-Control、Etag',
-                    describe:'了解 LocalStorage、Cache-Control、Etag、Expires 等知识，了解几者之间的区别，并写了相应博客。'
+                    describe:'了解 LocalStorage、Cache-Control、Etag、Expires 等知识，了解几者之间的区别。'
                 }, 
                 {
                     name:'Web性能优化',
                     describe:'了解常见的web性能优化方案，并写了相应的博客。'
-                },    
-                {
+                },   
+                 {
                     name:'同源策略、跨域',
                     describe:'了解同源策略，以及常用的跨域方法。'
                 }, 
+            
             ],
             statement:{
                 content:''
@@ -147,7 +148,7 @@ const app = new Vue({
             information:'信息 / INFORMATION',
             projects:'作品 / PROJECT',
             skills:'技能 / SKILLS',
-            stateself:'经历 / EXPERIENCE',
+            stateself:'经历 / EXPERIENCE'
             
         },
     },
