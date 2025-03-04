@@ -22,9 +22,18 @@ button {
 }
 
 body {
-    background: rgb(195, 188, 178);
+    background: #dae2eb;
     /*可改*/
     font-size: 14px;
+}
+
+span{
+    color:#333333;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+p{
+    color: #526e94
 }
 
 .downloadMyResume {
@@ -36,8 +45,8 @@ body {
     border: none;
     border-radius: 50%;
     font-size: 16px;
-    background: rgb(62, 63, 68);
-    color: rgb(195, 188, 178);
+    background: #526e94;
+    color:#dae2eb;
     cursor: pointer;
     position: absolute;
     top: 70px;
@@ -45,7 +54,7 @@ body {
 }
 
 .downloadMyResume:hover {
-    color: white;
+    color:  #fffffe;
 }
 
 .buttonsss {
@@ -123,7 +132,7 @@ main {
 .infoShow .name h1 {
     font-size: 36px;
     margin-bottom: 8px;
-    color: #1d1626
+    color: #526e94
 }
 
 .infoShow .infomation {
@@ -139,8 +148,9 @@ main {
 }
 
 .infoShow .infomation .icon {
-    margin-right: 10px;
+    margin-right: 15px;
     margin-top: 2px;
+    color: #526e94;
 
 }
 
@@ -176,7 +186,7 @@ main {
 
 
 .projectShow .pictureAndLink .projectLink .links a:hover {
-    color:#009ad6;
+    color:#6495ED;
 }
 
 .projectShow .projectPicture {
@@ -200,7 +210,6 @@ main {
 
 .projectShow .content strong {
     padding-right: 5px;
-    color: #1d1626
 }
 
 
@@ -224,10 +233,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #dae2eb;
 }
 
 .skillShow .skillName .name {
     font-weight: bold;
+    color: #526e94
 }
 
 .skillShow .skillDescribe {
@@ -249,35 +260,37 @@ main .splitLine p {
     margin-bottom: 6px;
     margin-top: 18px;
     font-size: 14px;
+    color:#526e94
 }
 
 main .splitLine .outLine {
-    border-top: 3px solid rgb(222, 222, 222);
+    border-top: 3px solid#dae2eb;
     width: 100%;
     position: relative;
     margin-bottom: 18px;
 }
 
 main .splitLine .inLine {
-    border-top: 3px solid rgb(32, 32, 32);
+    border-top: 3px solid #526e94;
     width: 8%;
     position: absolute;
-    bottom: 8px;
+    bottom: 0px;
     left: 0;
 }
 
 .proName{
-    color: #ef4136;
+    color:#526e94;
     font-weight: bold
     
 }
 
 .skillStyle{
     font-weight: 500;
-    color: #009ad6
+    color: #6495ED
     
 }
 
 .resumeLink{
-    color: #009ad6
+    color: #93a7c2
 }
+

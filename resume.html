@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="/css/index.css" media="(min-width:1025px)">
     <link rel="stylesheet" href="/css/print.css" media="print">
     <title>钟雪丨前端工程师</title>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -36,13 +44,13 @@
                         <div class="infomation">
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-icon_naturalpersons"></use>
+                                    <use xlink:href="#icon-age"></use>
                                 </svg>
                                 <span class="content">{{displayresume.info.age}}</span>
                             </div>
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-phone"></use>
+                                    <use xlink:href="#icon-telephone"></use>
                                 </svg>
                                 <span class="content">{{displayresume.info.telephone}}</span>
                             </div>
@@ -54,13 +62,13 @@
                             </div>
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-wechat1"></use>
+                                    <use xlink:href="#icon-weixin"></use>
                                 </svg>
                                 <span class="content">{{displayresume.info.wechat}}</span>
                             </div>
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-school2"></use>
+                                    <use xlink:href="#icon-school"></use>
                                 </svg>
                                 <span class="content">{{displayresume.info.school}}</span>
                             </div>
@@ -98,7 +106,6 @@
                                             <svg class="icon" aria-hidden="true">
                                                 <use xlink:href="#icon-blog1"></use>
                                             </svg>
-                                            <a v-bind:href="project.blogLink" target="_blank">博客链接</a>
                                         </div>
                                     </aside>
                                 </header>
@@ -163,10 +170,10 @@
 
                 <section class="statement">
                     <div class="statementShow" v-cloak>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.content}} <a class="resumeLink" href="https://nxdzhong.com/resume">{{displayresume.info.msg}}</a></span></p>
-                    </p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.content}}</span></p>
                     </div>
                 </section>
+                
 
             </div>
         </main>
@@ -176,6 +183,7 @@
     <script src="//at.alicdn.com/t/font_722412_j0k0qmnbbq.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script>
     <script src="/root.js"></script>
+    <script src="//at.alicdn.com/t/c/font_4845977_2lmp4m26mft.js"></script>
 </body>
 
 </html>

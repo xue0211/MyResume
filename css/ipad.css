@@ -6,6 +6,9 @@ a,ul,ol,button{list-style: none;text-decoration: none;color:inherit;}
 body{
     font-size:14px;
 }
+p{
+    color: #526e94;
+}
 
 .page{
     position: relative;
@@ -42,6 +45,11 @@ main{
     transform: translateX(-50%)
 }
 
+span{
+    color:#333333;
+    font-family:Arial, Helvetica, sans-serif
+}
+
 .resume{
     width:84vw;
     position: relative;
@@ -74,6 +82,7 @@ main{
 .infoShow .name h1{
     font-size:24px;
     margin-bottom:1vw;
+    color: #526e94
 }
 .infoShow .infomation{
     margin-left:7.34vw;
@@ -88,6 +97,7 @@ main{
 .infoShow .infomation .icon{
     margin-right:1.22vw;
     margin-top:2px;
+    color: #526e94;
 }
 
 .statementShow p{
@@ -117,7 +127,7 @@ main{
 
 
 .projectShow .pictureAndLink .projectLink .links a:active{
-    color:#009ad6;;
+    color:#6495ED;
 }
 
 .projectShow .projectPicture{
@@ -138,11 +148,10 @@ main{
     margin:5px 0;
 }
 
-.projectShow .content strong{
-    padding-right:5px;
-    color: #1d1626
+.projectShow .content strong {
+    padding-right: 5px;
+    color: #526e94
 }
-
 
 
 .projectShow .projectDescribe{
@@ -168,6 +177,7 @@ main{
 
 .skillShow .skillName .name{
     font-weight: bold;
+    color: #526e94
 }
 
 .skillShow .skillDescribe{
@@ -191,14 +201,14 @@ main .splitLine p{
     font-size: 14px;
 }
 main .splitLine .outLine{
-    border-top:2px solid rgb(222,222,222);
+    border-top:2px solid #dae2eb;
     width:100%;
     position: relative;
     margin-bottom:2.2vw;
 }
 
 main .splitLine .inLine{
-    border-top:2px solid rgb(32,32,32);
+    border-top:2px solid #526e94;
     width:8%;
     position: absolute;
     bottom:0px;
@@ -207,17 +217,17 @@ main .splitLine .inLine{
 
 
 .proName{
-    color: #ef4136;
+    color:#526e94;
     font-weight: bold
     
 }
 .skillStyle{
     font-weight: 500;
-    color: #009ad6
+    color: #6495ED
     
 }
 
 .resumeLink{
-    color: #009ad6
+    color: #93a7c2
 }
 
