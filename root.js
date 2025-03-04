@@ -30,7 +30,7 @@ const app = new Vue({
                     describe:'本项目使用VuePress搭建官网，通过Vue2、Vue Router、JavaScript等技术栈完成了Button、Collapse、Grid、Input、Layout、Popover、Tabs、Toast组件的设计与实现，借助Event Bus进行组件通信，通过Chai进行断言测试。'
                 },
                 {
-                    name:'《CNode社区》(基于Vue2)',
+                    name:'《Vue2高仿CNode社区》',
                     useSkill:'Vue2.js、Vue Router、Vue CLI、Axios、jQuery、localStorage、filter、JavaScript、CSS、MVVM、响应式布局、Parcel',
                     imgLink:'/img/CNode.jpg',
                     sourceLink:'https://github.com/xue0211/CNode',
@@ -66,8 +66,8 @@ const app = new Vue({
                     describe:'能够使用flex、float+清除浮动布局，能够用多种方式进行水平居中、垂直居中。'
                 },   
                 {
-                    name:'Canvas、SVG',
-                    describe:'能够使用Canvas的部分API进行画图，并用Canvas做了《Canvas画板》。了解Canvas与SVG的区别。'
+                    name:'Canvas',
+                    describe:'能够使用Canvas的部分API进行画图，并用Canvas做了《Canvas画板》。'
                 }, 
                 {
                     name:'原生JavaScript',
@@ -75,20 +75,17 @@ const app = new Vue({
                 }, 
                 {
                     name:'响应式布局、移动端适配',
-                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了该简历，用rem做了《我是一只大白》。'
+                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了该简历。'
                 },  
                 {
                     name:'jQuery',
-                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。用jQuery做了轮播和2048游戏。'
+                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。用jQuery做了网易云音乐和轮播。'
                 },   
                 {
                     name:'Vue.js',
-                    describe:'能够使用Vue.js完成需求，vue-cli、vue-router、vue-resource、vuex、slot、filters、组件通信、数据绑定等。'
+                    describe:'能够使用Vue.js完成需求，vue-cli、vue-router、axios、vuex、组件通信、数据绑定等。'
                 }, 
-                {
-                    name:'Bootstrap',
-                    describe:'能够使用 Bootstrap 做出好看的网页。'
-                },     
+              
                 {
                     name:'Git版本管理工具',
                     describe:'了解git，能够使用git的命令行进行代码版本的管理，并写了相应博客。'
@@ -99,7 +96,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'new、this、闭包、原型链、作用域',
-                    describe:'了解 new 的过程，了解 this、闭包、原型链、作用域的基本概念，并能够熟练使用，写了相应博客。'
+                    describe:'了解 new 的过程，了解 this、闭包、原型链、作用域的基本概念，并能够熟练使用。'
                 },    
                 {
                     name:'继承',
@@ -107,7 +104,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'DOM事件模型、事件委托',
-                    describe:'了解 DOM 事件模型，捕获、冒泡、处理三个阶段以及如何阻止事件的传递，并做了一个按钮 demo 。'
+                    describe:'了解 DOM 事件模型，捕获、冒泡、处理三个阶段以及如何阻止事件的传递。'
                 },   
                 {
                     name:'命令行',
@@ -123,7 +120,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'Cookie和Session',
-                    describe:'了解客户端缓存、Cookie、session 等知识，并写了相应博客。'
+                    describe:'了解客户端缓存、Cookie、session 等知识。'
                 },    
                 {
                     name:'LocalStorage、Cache-Control、Etag',

@@ -123,6 +123,7 @@ main {
 .infoShow .name h1 {
     font-size: 36px;
     margin-bottom: 8px;
+    color: #1d1626
 }
 
 .infoShow .infomation {
@@ -169,11 +170,13 @@ main {
 
 .projectShow .pictureAndLink .projectLink .links {
     margin: 15px 0;
+    color: #1d1626;
+    font-weight: 300;
 }
 
 
 .projectShow .pictureAndLink .projectLink .links a:hover {
-    color: blue;
+    color:#009ad6;
 }
 
 .projectShow .projectPicture {
@@ -197,6 +200,7 @@ main {
 
 .projectShow .content strong {
     padding-right: 5px;
+    color: #1d1626
 }
 
 
@@ -260,4 +264,20 @@ main .splitLine .inLine {
     position: absolute;
     bottom: 8px;
     left: 0;
+}
+
+.proName{
+    color: #ef4136;
+    font-weight: bold
+    
+}
+
+.skillStyle{
+    font-weight: 500;
+    color: #009ad6
+    
+}
+
+.resumeLink{
+    color: #009ad6
 }
