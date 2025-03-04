@@ -1,22 +1,56 @@
-* { margin: 0; padding: 0; box-sizing: border-box }
-*::before { box-sizing: border-box }
-*::after { box-sizing: border-box }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+*::before {
+    box-sizing: border-box
+}
+
+*::after {
+    box-sizing: border-box
+}
 
 a,
 ul,
 ol,
 button {
-    list-style: none;text-decoration: none;color:inherit;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
-    background:rgb(195,188,178); /*可改*/
+    background: rgb(195, 188, 178);
+    /*可改*/
     font-size: 14px;
 }
 
-.buttonsss{
-    width:100px;
-    height:100px;
+.downloadMyResume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    width: 82px;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    background: rgb(62, 63, 68);
+    color: rgb(195, 188, 178);
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+.downloadMyResume:hover {
+    color: white;
+}
+
+.buttonsss {
+    width: 100px;
+    height: 100px;
     display: none;
 }
 
@@ -24,7 +58,7 @@ body {
     margin: 0 auto;
     width: 1100px;
     height: 1600px;
-   /* background: rgb(195, 188, 178);  /*可改*/
+    /* background: rgb(195, 188, 178);  /*可改*/
     position: relative;
 }
 
@@ -40,27 +74,29 @@ body {
     display: none;
 }
 
-.personalInformation{
+.personalInformation {
     display: none
 }
 
 /***main resume***/
-main{
+main {
     width: 815px;
-    background: rgb(246, 246, 246);  /*可改*/
+    background: rgb(246, 246, 246);
+    /*可改*/
     position: absolute;
     margin: 60px 0;
     left: 50%;
     top: -50px;
     transform: translateX(-50%)
 }
+
 .resume {
     width: 685px;
     position: relative;
-    top:0;
-    left:50%;
+    top: 0;
+    left: 50%;
     transform: translateX(-50%);
-    margin:50px 0;
+    margin: 50px 0;
 }
 
 .resume .info {
@@ -85,8 +121,8 @@ main{
 }
 
 .infoShow .name h1 {
-    font-size:36px;
-    margin-bottom:8px;
+    font-size: 36px;
+    margin-bottom: 8px;
 }
 
 .infoShow .infomation {
@@ -113,57 +149,59 @@ main{
     margin-bottom: 10px;
 }
 
-.oneProject .projectShow{
-    border:1px dashed #888;
-    margin-bottom:10px;
+.oneProject .projectShow {
+    border: 1px dashed #888;
+    margin-bottom: 10px;
     padding: 10px 0;
 }
 
-.projectShow .pictureAndLink{
+.projectShow .pictureAndLink {
     display: flex;
     justify-content: space-around;
 }
 
-.projectShow .pictureAndLink .projectLink{
+.projectShow .pictureAndLink .projectLink {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: -40px;
 }
 
-.projectShow .pictureAndLink .projectLink .links{
-    margin:15px 0;
+.projectShow .pictureAndLink .projectLink .links {
+    margin: 15px 0;
 }
 
 
-.projectShow .pictureAndLink .projectLink .links a:hover{
-    color:blue;
+.projectShow .pictureAndLink .projectLink .links a:hover {
+    color: blue;
 }
 
-.projectShow .projectPicture{
-    width:520px;
-    height:281px;
+.projectShow .projectPicture {
+    width: 520px;
+    height: 281px;
     position: relative;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
-.projectShow .content{
+
+.projectShow .content {
     position: relative;
-    top:0;
-    left:50%;
+    top: 0;
+    left: 50%;
     transform: translateX(-50%);
     padding: 0 33px;
 }
-.projectShow .content .project{
-    margin:5px 0;
+
+.projectShow .content .project {
+    margin: 5px 0;
 }
 
-.projectShow .content strong{
-    padding-right:5px;
+.projectShow .content strong {
+    padding-right: 5px;
 }
 
 
-.projectShow .projectDescribe{
-    width:100%;
+.projectShow .projectDescribe {
+    width: 100%;
     margin-bottom: 16px;
 }
 
@@ -173,9 +211,11 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.skills ul li{
-    width:49%;
+
+.skills ul li {
+    width: 49%;
 }
+
 .skillShow .skillName {
     display: flex;
     flex-direction: row;
@@ -188,9 +228,9 @@ main{
 
 .skillShow .skillDescribe {
     display: block;
-    height:62px;
+    height: 62px;
     margin-top: 6px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .skillShow {
@@ -201,22 +241,23 @@ main{
 /* 组件 */
 
 
-main .splitLine p{
-    margin-bottom:6px;
-    margin-top:18px;
+main .splitLine p {
+    margin-bottom: 6px;
+    margin-top: 18px;
     font-size: 14px;
 }
-main .splitLine .outLine{
-    border-top:3px solid rgb(222,222,222);
-    width:100%;
+
+main .splitLine .outLine {
+    border-top: 3px solid rgb(222, 222, 222);
+    width: 100%;
     position: relative;
-    margin-bottom:18px;
+    margin-bottom: 18px;
 }
 
-main .splitLine .inLine{
-    border-top:3px solid rgb(32,32,32);
-    width:8%;
+main .splitLine .inLine {
+    border-top: 3px solid rgb(32, 32, 32);
+    width: 8%;
     position: absolute;
-    bottom:8px;
-    left:0;    
+    bottom: 8px;
+    left: 0;
 }
