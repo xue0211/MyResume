@@ -16,7 +16,7 @@ const app = new Vue({
                 {
                     name: '《flurryUI》(基于Vue3)',
                     useSkill: 'Vue3.js、vue-router、vue-cli、Vite、TypeScript、SASS、MVVM、Prism.js、响应式布局 、Git管理',
-                    imgLink: '/img/flurryUI.jpg',
+                    imgLink: './img/flurryUI.jpg',
                     sourceLink: 'https://github.com/xue0211/flurryUI',
                     previewLink: 'https://xue0211.github.io/flurry-ui/',
                     describe: '使用Vite搭建官网、vue-router进行路由切换、TypeScript编写脚本、SASS调整页面样式、Prism.js实现语法高亮。完成了Switch、Button、Dialog、Tabs组件的设计与实现，并在官网中撰写了文档。'
@@ -26,13 +26,13 @@ const app = new Vue({
                     useSkill:'Vue2.js、vue-router、JavaScript、SCSS、EventBus、MVVM、响应式布局、Parcel、Chai、VuePress',
                     imgLink:'./img/sleetUI.jpg',
                     sourceLink:'https://github.com/xue0211/gulu-demo',
-                    previewLink:'/img/sleetUI预览.png',
+                    previewLink:'./img/sleetUI预览.png',
                     describe:'使用VuePress搭建官网、vue-router进行路由切换、TypeScript编写脚本、SCSS调整页面样式、EventBus进行组件间解耦通信和状态管理、Parcel打包、Chai进行断言测试。完成了Button、Collapse、Grid、Input、Layout、Popover、Tabs、Toast组件的设计与实现。'
                 },
                 {
                     name:'《Vue2搭建CNode社区》',
                     useSkill:'Vue2.js、vue-router、vue-cli、Axios、jQuery、localStorage、filter、组件化、MVVM、响应式布局、Parcel',
-                    imgLink:'/img/CNode.jpg',
+                    imgLink:'./img/CNode.jpg',
                     sourceLink:'https://github.com/xue0211/CNode',
                     previewLink:'https://xue0211.github.io/CNode/cnode-project/dist/index.html#/',
                     describe:'使用vue-cli作为脚手架、v-bind 动态绑定样式、vue-router进行前端路由的切换及传参、watch监听路由的变化。使用axios获取数据、filter对数据进行过滤、computed完成数据筛选、localStorage存储数据。'
@@ -40,7 +40,7 @@ const app = new Vue({
                 {
                     name:'《画一只皮卡丘》',
                     useSkill:'JavaScript、jQuery、Prism.js、Rem响应式页面 、CSS',
-                    imgLink:'/img/Pikachu.jpg',
+                    imgLink:'./img/Pikachu.jpg',
                     sourceLink:'https://github.com/xue0211/Pikachu-2.0',
                     previewLink:'https://xue0211.github.io/Pikachu-2.0/index.html',
                     describe:'动态向<style>标签和<pre>标签添加文本，绘制出皮卡丘的过程。用css3实现动画效果，prism.js实现代码高亮，rem实现响应式布局。'
@@ -48,7 +48,7 @@ const app = new Vue({
                 {
                     name:'《Canvas画板》',
                     useSkill:'原生JavaScript、Canvas、移动端、SVG、特性检测',
-                    imgLink:'/img/Canvas.jpg',
+                    imgLink:'./img/Canvas.jpg',
                     sourceLink:'https://github.com/xue0211/canvas',
                     previewLink:'https://xue0211.github.io/canvas/index.html',
                     describe:'本项目使用原生JS实现，主要调用 Canvas API，实现了线粗、调色、橡皮擦、一键删除、保存等功能。其中，context.clearRect()方法实现了橡皮檫和清屏的功能，className切换实现了笔的线粗、颜色切换的功能，用meta:vp、特性检测、ontouch事件实现了触屏设备与web端兼容。'
