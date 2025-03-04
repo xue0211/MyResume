@@ -177,7 +177,7 @@ main{
 
 .skillShow .skillDescribe {
     display: block;
-    height:80px;
+    height:62px;
     margin-top: 6px;
     overflow:hidden;
 }
@@ -203,9 +203,9 @@ main .splitLine .outLine{
 }
 
 main .splitLine .inLine{
-    border-top:2px solid rgb(32,32,32);
+    border-top:3px solid rgb(32,32,32);
     width:8%;
     position: absolute;
-    bottom:0px;
+    bottom:8px;
     left:0;    
 }

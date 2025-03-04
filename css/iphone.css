@@ -35,7 +35,7 @@ main{
 }
 
 .resume{
-    width:84vw;
+    width:90vw;
     position: relative;
     top:0;
     left:50%;
@@ -69,7 +69,7 @@ main{
     font-size:14px;
     display: flex;
     flex-direction: row;
-    margin:2px 0;
+    margin:10px 0;
 }
 
 .infoShow .infomation .icon{
@@ -84,7 +84,7 @@ main{
 .oneProject .projectShow{
     border:1px dashed #888;
     margin-bottom:10px;
-    padding: 10px 0;
+    padding: 1vw 0;
 }
 
 .projectShow .pictureAndLink .projectLink{
@@ -126,7 +126,11 @@ main{
 }
 
 .projectShow .content strong{
-    padding-right:5px;
+    padding-right:1.5vw 0;
+}
+
+.projectShow .content .project span{
+    line-height:25px;
 }
 
 
@@ -158,6 +162,7 @@ main{
 .skillShow .skillDescribe{
     display: block;
     margin-top: 6px;
+    line-height: 25px;
     overflow:hidden;
 }
 
@@ -167,12 +172,17 @@ main{
     padding:5px 1.2vw;
 }
 
+.statement .statementShow p{
+    line-height: 25px;
+}
+
+
 
 /* 组件 */
 
 main .splitLine p{
     margin-bottom:6px;
-    margin-top:2.2vw;
+    margin-top:3.2vw;
     font-size: 14px;
 }
 main .splitLine .outLine{
@@ -184,7 +194,7 @@ main .splitLine .outLine{
 
 main .splitLine .inLine{
     border-top:2px solid rgb(32,32,32);
-    width:15%;
+    width:10%;
     position: absolute;
     bottom:0px;
     left:0;    
