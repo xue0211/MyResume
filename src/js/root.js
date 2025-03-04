@@ -16,7 +16,7 @@ const app = new Vue({
                 {
                     name: 'flurryUI(基于Vue3)',
                     useSkill: 'Vue3.js、Vue Router、Vue CLI、Vite、TypeScript、SASS、MVVM、Prism.js、响应式布局 、Git管理',
-                    imgLink: './img/flurry.jpg',
+                    imgLink: './img/flurryUI.jpg',
                     sourceLink: 'https://github.com/xue0211/flurryUI',
                     previewLink: 'https://xue0211.github.io/flurry-ui/',
                     describe: '本项目使用Vite搭建官网，通过Vue3、Vue Router、TypeScript等技术栈完成了Switch、Button、Dialog、Tabs组件的设计与实现，并在官网中撰写了文档。'
