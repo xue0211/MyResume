@@ -83,15 +83,19 @@ const app = new Vue({
                 },   
                 {
                     name:'Vue.js',
-                    describe:'能够使用Vue.js完成需求，了解Vue.js的数据双向绑定、父子兄弟组件间的通信原理，能够使用Vue-Router制作前端路由，能够使用keep-alive进行缓存。'
+                    describe:'能够使用Vue.js完成需求，vue-cli、vue-router、vue-resource、vuex、slot、filters、组件通信、数据绑定等。'
                 }, 
+                {
+                    name:'Bootstrap',
+                    describe:'能够使用 Bootstrap 做出好看的网页。'
+                },     
                 {
                     name:'Git版本管理工具',
                     describe:'了解git，能够使用git的命令行进行代码版本的管理，并写了相应博客。'
                 }, 
                 {
-                    name:'MVC、Observer设计模式',
-                    describe:'了解 MVC、Observer 设计模式，能够运用到实际的开发中。'
+                    name:'MVC、Observer、MVVM设计模式',
+                    describe:'了解 MVC、Observer、MVVM 设计模式，能够运用到实际的开发中。'
                 }, 
                 {
                     name:'new、this、闭包、原型链、作用域',
