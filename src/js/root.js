@@ -72,10 +72,11 @@ const app = new Vue({
             }
         },
         line: {
-            projects:'项目作品 / PROJECT EXPERIENCE',
+            information:'信息 / INFORMATION',
+            projects:'作品 / PROJECT',
             skills:'技能 / SKILLS',
-            stateself:'个人经历 / MY EXPERIENCE',
-            social:'社交网站 / SOCIAL INTERNET'
+            stateself:'经历 / EXPERIENCE',
+            social:'社交 / SOCIAL INTERNET'
         },
     },
 
