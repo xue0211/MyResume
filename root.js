@@ -26,7 +26,7 @@ const app = new Vue({
                     useSkill:'Vue2.js、vue-router、JavaScript、SCSS、EventBus、MVVM、响应式布局、Parcel、Chai、VuePress',
                     imgLink:'./img/sleetUI.jpg',
                     sourceLink:'https://github.com/xue0211/gulu-demo',
-                    previewLink:'./img/sleetUI预览.png',
+                    previewLink:'https://xue0211.github.io/sleetUI/',
                     describe:'使用VuePress搭建官网、vue-router进行路由切换、TypeScript编写脚本、SCSS调整页面样式、EventBus进行组件间解耦通信和状态管理、Parcel打包、Chai进行断言测试。完成了Button、Collapse、Grid、Input、Layout、Popover、Tabs、Toast组件的设计与实现。'
                 },
                 {
