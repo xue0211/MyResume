@@ -5,26 +5,26 @@ const app = new Vue({
             info: {
                 name: '钟雪',
                 job: '前端工程师',
-                school: '南京工业大学 本科',
+                school: '南京工业大学 本科 计算机专业',
                 telephone: '17714428531',
                 email: 'zx2723708118@163.com',
                 wechat: '17714428531',
-                age: '22',
+                age: '22岁',
             },
           
             projects: [
                 {
                     name: '《flurryUI》(基于Vue3)',
                     useSkill: 'Vue3.js、vue-router、vue-cli、Vite、TypeScript、SASS、MVVM、Prism.js、响应式布局 、Git管理',
-                    imgLink: './img/flurryUI.jpg',
+                    imgLink: './img/flurryUI.png',
                     sourceLink: 'https://github.com/xue0211/flurryUI',
-                    previewLink: 'https://xue0211.github.io/flurry-ui/',
+                    previewLink: 'https://xue0211.github.io/flurry-ui/index.html#/',
                     describe: '使用Vite搭建官网、vue-router进行路由切换、TypeScript编写脚本、SASS调整页面样式、Prism.js实现语法高亮。完成了Switch、Button、Dialog、Tabs组件的设计与实现，并在官网中撰写了文档。'
                 },
                 {
                     name:'《sleetUI》(基于Vue2)',
                     useSkill:'Vue2.js、vue-router、JavaScript、SCSS、EventBus、MVVM、响应式布局、Parcel、Chai、VuePress',
-                    imgLink:'./img/sleetUI.jpg',
+                    imgLink:'./img/sleetUI.png',
                     sourceLink:'https://github.com/xue0211/gulu-demo',
                     previewLink:'https://xue0211.github.io/sleetUI/',
                     describe:'使用VuePress搭建官网、vue-router进行路由切换、TypeScript编写脚本、SCSS调整页面样式、EventBus进行组件间解耦通信和状态管理、Parcel打包、Chai进行断言测试。完成了Button、Collapse、Grid、Input、Layout、Popover、Tabs、Toast组件的设计与实现。'
@@ -32,7 +32,7 @@ const app = new Vue({
                 {
                     name:'《Vue2搭建CNode社区》',
                     useSkill:'Vue2.js、vue-router、vue-cli、Axios、jQuery、localStorage、filter、组件化、MVVM、响应式布局、Parcel',
-                    imgLink:'./img/CNode.jpg',
+                    imgLink:'./img/CNode.png',
                     sourceLink:'https://github.com/xue0211/CNode',
                     previewLink:'https://xue0211.github.io/CNode/cnode-project/dist/index.html#/',
                     describe:'使用vue-cli作为脚手架、v-bind 动态绑定样式、vue-router进行前端路由的切换及传参、watch监听路由的变化。使用axios获取数据、filter对数据进行过滤、computed完成数据筛选、localStorage存储数据。'
@@ -40,7 +40,7 @@ const app = new Vue({
                 {
                     name:'《画一只皮卡丘》',
                     useSkill:'JavaScript、jQuery、Prism.js、Rem响应式页面 、CSS',
-                    imgLink:'./img/Pikachu.jpg',
+                    imgLink:'./img/Pikachu.png',
                     sourceLink:'https://github.com/xue0211/Pikachu-2.0',
                     previewLink:'https://xue0211.github.io/Pikachu-2.0/index.html',
                     describe:'动态向<style>标签和<pre>标签添加文本，绘制出皮卡丘的过程。用css3实现动画效果，prism.js实现代码高亮，rem实现响应式布局。'
@@ -48,7 +48,7 @@ const app = new Vue({
                 {
                     name:'《Canvas画板》',
                     useSkill:'原生JavaScript、Canvas、移动端、SVG、特性检测',
-                    imgLink:'./img/Canvas.jpg',
+                    imgLink:'./img/Canvas.png',
                     sourceLink:'https://github.com/xue0211/canvas',
                     previewLink:'https://xue0211.github.io/canvas/index.html',
                     describe:'本项目使用原生JS实现，主要调用 Canvas API，实现了线粗、调色、橡皮擦、一键删除、保存等功能。其中，context.clearRect()方法实现了橡皮檫和清屏的功能，className切换实现了笔的线粗、颜色切换的功能，用meta:vp、特性检测、ontouch事件实现了触屏设备与web端兼容。'
@@ -59,11 +59,15 @@ const app = new Vue({
             skills: [
                 {
                     name:'Vue3.js',
-                    describe:'能够使用Vue3.js完成相关需求，vue-cli、vue-router、axios、vuex、组件通信、数据绑定等。'
+                    describe:'能够使用vue-cli脚手架，使用Vite搭建官网，vue-router进行路由嵌套，TypeScript编写脚本等。用Vue3.js做了《flurryUI》。'
+                }, 
+                {
+                    name:'Vue2.js',
+                    describe:'能够使用v-bind动态绑定样式，props传参，axios获取数据，EventBus进行组件通信等。用Vue2.js做了《sleetUI》和《搭建CNode社区》。'
                 }, 
                 {
                     name:'HTML 5',
-                    describe:'能够根据HTML5标准书写结构良好，并且符合语义化的html代码。如标签<header>、<main>、<section>、<footer> 等'
+                    describe:'能够根据HTML5标准书写结构良好，并且符合语义化的html代码。如标签<header>、<main>、<section>、<footer> 等。'
                 },  
                 {
                     name:'CSS3布局与居中',
@@ -85,10 +89,6 @@ const app = new Vue({
                 {
                     name:'jQuery',
                     describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。用jQuery做过《轮播》和CNode社区项目中的Pagination组件。'
-                },
-                {
-                    name:'webpack',
-                    describe:'了解webpack基础操作，能够安装webpack及配置相关loader,如bable-loader、sass-loader、postcss-loader。'
                 },
                 {
                     name:'Git版本管理工具',
@@ -142,7 +142,7 @@ const app = new Vue({
             
             ],
             statement:{
-                content:'我是一名本科应届毕业生。大一因VBA课程对编程产生了浓厚兴趣。大二开始修读计算机科学与技术专业的第二学历，在课程中接触到了前端开发。至今，已经自学前端开发两年，热爱写代码，享受解决bug的过程，目前掌握Vue3、HTML5、CSS3、JavaScript，jQuery等技术，能胜任开发工作。'
+                content:'我是一名本科应届毕业生。大一因VBA课程对编程产生了浓厚兴趣。大二开始修读计算机科学与技术专业的第二学历，在课程中接触到了前端开发。至今，已经自学前端开发两年，热爱写代码，享受解决bug的过程，有良好的阅读英文文档的习惯，能独立解决问题。目前掌握Vue3、HTML5、CSS3、JavaScript，jQuery等技术，能胜任开发工作。'
             },
         },
         line: {
