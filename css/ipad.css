@@ -10,6 +10,14 @@ p{
     color: #526e94;
 }
 
+a{
+    color:#00BFFF
+}
+
+a:hover{
+    color:#526e94
+}
+
 .page{
     position: relative;
 }
@@ -169,6 +177,8 @@ span{
 .skills ul li{
     width:100%;
 }
+
+
 .skillShow .skillName{
     display: flex;
     flex-direction: row;

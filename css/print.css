@@ -3,6 +3,14 @@
 *::after{box-sizing: border-box}
 a,ul,ol,button{list-style: none;text-decoration: none;color:inherit;}
 
+a{
+    color:#00BFFF
+}
+
+a:hover{
+    color:#526e94;
+}
+
 body{
     font-size:14px;
 }
@@ -76,6 +84,7 @@ main{
 .infoShow .name h1{
     font-size:24px;
     margin-bottom:1vw;
+    color: #526e94
 }
 .infoShow .infomation{
     margin-left:7.34vw;
@@ -90,6 +99,7 @@ main{
 .infoShow .infomation .icon{
     margin-right:1.22vw;
     margin-top:2px;
+    color: #526e94;
 }
 .statementShow p{
     width:100%;
@@ -120,7 +130,7 @@ main{
 
 
 .projectShow .pictureAndLink .projectLink .links a:hover{
-    color:#009ad6;
+    color:#6495ED;
 }
 
 .projectShow .projectPicture{
@@ -142,7 +152,6 @@ main{
 
 .projectShow .content strong{
     padding-right:5px;
-    color: #1d1626
 }
 
 
@@ -165,15 +174,17 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #dae2eb;
 }
 
 .skillShow .skillName .name{
     font-weight: bold;
+    color: #526e94
 }
 
 .skillShow .skillDescribe{
     display: block;
-    height:62px;
+    height:68px;
     margin-top: 6px;
     overflow:hidden;
 }
@@ -181,6 +192,7 @@ main{
 .skillShow{
     border:1px dashed #888;
     margin-bottom:15px;
+    padding-bottom: 14px;
 }
 .statement .statementShow p{
     line-height: 25px;
@@ -193,16 +205,17 @@ main .splitLine p{
     margin-bottom:6px;
     margin-top:3.2vw;
     font-size: 14px;
+    color:#526e94
 }
 main .splitLine .outLine{
-    border-top:2px solid rgb(222,222,222);
+    border-top: 3px solid#dae2eb;
     width:100%;
     position: relative;
     margin-bottom:3.8vw;
 }
 
 main .splitLine .inLine{
-    border-top:2px solid rgb(32,32,32);
+    border-top: 3px solid #526e94;
     width:10%;
     position: absolute;
     bottom:0px;
@@ -211,16 +224,16 @@ main .splitLine .inLine{
 
 
 .proName{
-    color: #ef4136;
+    color:#526e94;
     font-weight: bold
     
 }
 .skillStyle{
     font-weight: 500;
-    color: #009ad6
+    color: #6495ED
     
 }
 
 .resumeLink{
-    color: #009ad6
+    color: #93a7c2
 }

@@ -12,6 +12,14 @@ body{
     display: none;
 }
 
+a{
+    color:#00BFFF
+}
+
+a:hover{
+    color:#526e94;
+}
+
 .downloadMyResume{
     display: none;
 }
@@ -51,6 +59,15 @@ span{
 p{
     color: #526e94;
 }
+
+a{
+    color:#00BFFF
+}
+
+a:hover{
+    color:#526e94
+}
+
 .resume{
     width:90vw;
     position: relative;

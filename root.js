@@ -4,17 +4,18 @@ const app = new Vue({
         displayresume: {
             info: {
                 name: '钟雪',
-                job: '前端工程师',
-                school: '南京工业大学 本科 计算机专业',
+                job: '前端开发工程师',
+                school: '南京工业大学 本科 行政管理 / 计算机科学与技术',
                 telephone: '17714428531',
                 email: 'zx2723708118@163.com',
                 wechat: '17714428531',
                 age: '22岁',
+                link: '我的技术博客'
             },
           
             projects: [
                 {
-                    name: '《flurryUI》(基于Vue3)',
+                    name: '《flurryUI组件库》(基于Vue3)',
                     useSkill: 'Vue3.js、vue-router、vue-cli、Vite、TypeScript、SASS、MVVM、Prism.js、响应式布局 、Git管理',
                     imgLink: './img/flurryUI.png',
                     sourceLink: 'https://github.com/xue0211/flurryUI',
@@ -22,7 +23,7 @@ const app = new Vue({
                     describe: '使用Vite搭建官网、vue-router进行路由切换、TypeScript编写脚本、SASS调整页面样式、Prism.js实现语法高亮。完成了Switch、Button、Dialog、Tabs组件的设计与实现，并在官网中撰写了文档。'
                 },
                 {
-                    name:'《sleetUI》(基于Vue2)',
+                    name:'《sleetUI组件库》(基于Vue2)',
                     useSkill:'Vue2.js、vue-router、JavaScript、SCSS、EventBus、MVVM、响应式布局、Parcel、Chai、VuePress',
                     imgLink:'./img/sleetUI.png',
                     sourceLink:'https://github.com/xue0211/gulu-demo',
@@ -142,14 +143,16 @@ const app = new Vue({
             
             ],
             statement:{
-                content:'我是一名本科应届毕业生。大一因VBA课程对编程产生了浓厚兴趣。大二开始修读计算机科学与技术专业的第二学历，在课程中接触到了前端开发。至今，已经自学前端开发两年，热爱写代码，享受解决bug的过程，有良好的阅读英文文档的习惯，能独立解决问题。目前掌握Vue3、HTML5、CSS3、JavaScript，jQuery等技术，能胜任开发工作。'
+                content:'我是一名行政管理专业的本科应届毕业生。大一因VBA课程对编程产生了浓厚兴趣。大二开始修读计算机科学与技术专业的第二学历，在课程中接触到了前端开发。至今，已经自学前端开发两年，热爱写代码，享受解决bug的过程，有良好的阅读英文文档的习惯，能独立解决问题。目前掌握Vue3、HTML5、CSS3、JavaScript、jQuery、Java、C++等技术，能胜任开发工作。',
+                credentials:'英语四六级、江苏省计算机二级。'
             },
         },
         line: {
             information:'信息 / INFORMATION',
             projects:'作品 / PROJECTS',
             skills:'技能 / SKILLS',
-            stateself:'经历 / EXPERIENCE'
+            stateself:'关于我 / ABOUT ME',
+            credentials:'证书 / CREDENTIALS'
             
         },
     },

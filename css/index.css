@@ -36,6 +36,13 @@ p{
     color: #526e94
 }
 
+a{
+    color:#00BFFF
+}
+
+a:hover{
+    color:#526e94;
+}
 .downloadMyResume {
     display: flex;
     justify-content: center;
@@ -243,14 +250,16 @@ main {
 
 .skillShow .skillDescribe {
     display: block;
-    height: 62px;
+    height: 68px;
     margin-top: 6px;
     overflow: hidden;
+ 
 }
 
 .skillShow {
     border: 1px dashed #888;
     margin-bottom: 15px;
+    padding-bottom: 14px;
 }
 
 /* 组件 */

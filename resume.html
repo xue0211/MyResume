@@ -72,17 +72,34 @@
                                 </svg>
                                 <span class="content">{{displayresume.info.school}}</span>
                             </div>
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-link"></use>
+                                </svg>
+                                <span class="content"><a href="https://www.zhihu.com/people/xia-ye-ban-liang-5/posts" target="_blank">{{displayresume.info.link}}</a></span>
+                            </div>
                         </div>
                     </div>
                 </section>
-
+                
+                <div class="splitLine">
+                    <p><strong>{{line.stateself}}</strong></p>
+                    <div class="outLine">
+                        <div class="inLine"></div>
+                    </div>
+                </div>
+                <section class="statement">
+                    <div class="statementShow" v-cloak>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.content}}</span></p>
+                    </div>
+                </section>
                 <div class="splitLine">
                     <p><strong>{{line.projects}}</strong></p>
                     <div class="outLine">
                         <div class="inLine"></div>
                     </div>
                 </div>
-
+             
                 <section class="projects">
                     <ul v-cloak>
                         <li class="oneProject" v-for="(project,index) in displayresume.projects">
@@ -132,12 +149,12 @@
                                     </div>
                 
                                 </section>
+                                
                             </div>
                         </li>
                     </ul>
 
-                </section>
-
+                </section><br>
                 <div class="splitLine">
                     <p><strong>{{line.skills}}</strong></p>
                     <div class="outLine">
@@ -159,20 +176,19 @@
                         </li>
                     </ul>
                 </section>
-
                 <div class="splitLine">
-                    <p><strong>{{line.stateself}}</strong></p>
+                    <p><strong>{{line.credentials}}</strong></p>
                     <div class="outLine">
                         <div class="inLine"></div>
                     </div>
                 </div>
     
-
                 <section class="statement">
                     <div class="statementShow" v-cloak>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.content}}</span></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.credentials}}</span></p>
                     </div>
                 </section>
+              
                 
 
             </div>
@@ -180,10 +196,9 @@
     </div>
 
 
-    <script src="//at.alicdn.com/t/font_722412_j0k0qmnbbq.js"></script>
+    <script src="//at.alicdn.com/t/c/font_4845977_zy6rjjoeq5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script>
     <script src="./root.js"></script>
-    <script src="//at.alicdn.com/t/c/font_4845977_2lmp4m26mft.js"></script>
 </body>
 
 </html>
