@@ -7,7 +7,7 @@ const app = new Vue({
                 job: '前端开发工程师',
                 school: '南京工业大学 本科 计算机科学与技术（二学历）',
                 telephone: '17714428531',
-                email: 'zx2723708118@163.com',
+                email: 'zx2723709118@163.com',
                 wechat: '17714428531',
                 age: '22岁',
                 link: '我的技术博客',
